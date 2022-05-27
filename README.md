@@ -25,3 +25,8 @@ Firebase AppCheckのカスタムバックエンドを検証するためのプロ
 上記の通り、
 認証時にfunctionsの `GET /fetchAppCheckToken` をリクエストしてカスタムトークンを取得してください。
 以降のリクエストでは `POST /verifyAppCheckToken` でトークンを検証します。
+
+## 参考
+- https://firebase.google.com/docs/app-check/custom-resource-backend?authuser=0&hl=ja
+- https://firebase.google.com/docs/auth/admin/create-custom-tokens?authuser=0&hl=ja#troubleshooting
+- https://firebase.google.com/docs/app-check/custom-provider
